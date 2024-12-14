@@ -1,0 +1,64 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #5587b3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header h1 {
+    color: #333;
+}
+
+.avatar {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #333;
+}
+
+.description {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+    color: #555;
+}
+
+.favorites {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.favorites h2 {
+    text-align: center;
+    color: #333;
+}
+
+.favorites ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.favorites ul li {
+    margin: 5px 0;
+    color: #555;
+}
+
+.social-link {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}

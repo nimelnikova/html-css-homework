@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    flex: 1;
+}
+
+.text-section {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.image-section img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+img {
+    border-radius: 18px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+}
